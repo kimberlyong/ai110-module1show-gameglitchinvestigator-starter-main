@@ -63,14 +63,19 @@
 **Task given to both models:**
 
 <!-- Describe what you asked each model to do -->
+I asked both models to fix the bug where the game incorrectly gave hints for higher or lower
+
 
 | | Model A | Model B |
-|-|---------|---------|
-| **Model name** | | |
-| **Response summary** | | |
-| **More Pythonic?** | | |
-| **Clearer explanation?** | | |
+|-|Copilot  |Claude Code|
+| **Model name** |Copilot|Claude Code|
+| **Response summary** 
+    |Fixed logic immediately and gave 1 sentence of the changes made|Established context of what was happening, referenced changes and the lines of code, and noted other possible errors that the user might want to keep in mind. |
+| **More Pythonic?** |Copilot was very direct and focused on making the change|CC was more pythonic as it just gave more and clearer explanations of what it did|
+| **Clearer explanation?** | |X|
 
 **Which did you prefer and why?**
+I preferred the Claude Code response because it first explained the context of what was happening. It also directly referenced lines like app.py:99 so that I could also pinpoint where the problem was. Additionally, it gave a nice preview of the changes it was going to make and gave me some steps if the problem continued. Claude was also better about asking to make changes before implementing them. 
 
 <!-- Your conclusion -->
+I preferred Claude Code solution as I think it was more beginner friendly. As someone who is still learning python, I liked having context, lines specifically cited, and a AI buddy rather than a AI do-er. 
