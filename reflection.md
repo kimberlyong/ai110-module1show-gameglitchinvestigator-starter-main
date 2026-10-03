@@ -54,12 +54,17 @@ It helped me design the pytests to check if the code worked. For one bug, it add
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+  Streamlit automatically "resets" the app when it is run. For example, if you refresh the page or make changes to the code, it will start from the top of the code again. The session state is the information stored in that specific use of the app. In this case, the score, guesses, and history were all stored in the session state. 
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  I liked the idea of putting a FIX ME and a FIX note in the code so that you can prompt the AI to look exactly at the code and know where to go. It also helps when going back to review code to see what you changed and how it was changed instead of trying to go through AI chats. 
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would like to try using Claude Code. While Copilot was able to provide suggestions correctly most of the time, I want to understand the efficiency and correctness of different AI platforms to see what would be best to apply in future projects. I think trying out different AI platforms can also help me get better at working alongside different tools and work on my prompting. 
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+I think that AI is very proactive in assisting with coding. Often, it not only fixed the change I prompted it to, but it also went and did other things to make the code more efficient on its own. 
